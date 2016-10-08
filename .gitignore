@@ -35,3 +35,12 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+*~
+build
+node_modules
+uploads
+page/bower_components
+page/blocklyide
+db
+*.log

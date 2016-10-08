@@ -1,0 +1,47 @@
+{
+  "name": "homeIOE",
+  "version": "0.1.0",
+  "description": "Server for home IOE",
+  "main": "server.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha ut/mocha.js --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lizhizhou/homeIOT.git"
+  },
+  "dependencies": {
+    "optimist":"*",
+    "express": "~4.0.0",
+    "express-session": "*",
+    "passport": ">= 0.0.0",
+    "socket.io": "*",
+    "data.io": "*",
+    "tingodb": "0.3.5",
+    "body-parser": "*",
+    "log4js": "*",
+    "assert": "*",
+    "multer": "0.1.6",
+    "collections": "*",
+    "shelljs": "*",
+    "figlet": "*",
+    "mqtt": "*",
+    "mocha": "*",
+    "node-uuid": "*",
+    "chai": "*",
+    "request": "*",
+    "tcp-port-used": "*",
+    "cron": "*",
+    "diffsync": "*",
+    "node-zookeeper-client": "*",
+    "tingyun": "*"
+  },
+  "author": "Zhizhou Li",
+  "license": "GPL",
+  "readmeFilename": "README.md",
+  "devDependencies": {},
+  "keywords": [
+    "Restapi",
+    "node"
+  ]
+}
